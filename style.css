@@ -1,0 +1,27 @@
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+.item form {
+    width: 50%;
+    height: 300px;
+    border: 2px solid black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.item form  input{
+    border-radius: 5px;
+    
+
+}
+.item form  input::placeholder{
+    color: white;
+
+
+
+}
