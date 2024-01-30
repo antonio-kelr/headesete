@@ -988,7 +988,6 @@ input[type=radio] {
     align-items: center;
     overflow: hidden;
     margin-top: 5%;
-    border: 2px solid white;
 }
 .div-utilma {
     position: absolute;
@@ -1010,7 +1009,6 @@ input[type=radio] {
     object-fit: cover;
     object-position: center bottom;
     margin-top: 20%;
-
 }
 
 
