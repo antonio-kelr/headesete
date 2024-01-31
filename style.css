@@ -397,13 +397,14 @@ nav li {
     cursor: pointer;
     border-radius: 0 20px 20px 0;
     border: none; 
+    padding: 4px;
 }
 .button {
     position: absolute;
     right: 0;
     border-radius: 40px;
     font-size: 10px;
-    padding: 6px;
+    padding: 9px;
     width: 30%;
     border: none;
 }
@@ -926,6 +927,7 @@ input[type=radio] {
     }
     #barss {
         display: block;
+        font-size: 24px;
     }
     nav {
         display: flex;
