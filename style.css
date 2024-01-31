@@ -405,7 +405,7 @@ nav li {
     border-radius: 40px;
     font-size: 10px;
     padding: 9px;
-    width: 30%;
+    width: 35%;
     border: none;
 }
 .input-email::placeholder {
@@ -448,7 +448,7 @@ nav li {
     border-radius: 40px;
     font-size: 10px;
     padding: 7px;
-    width: 30%;
+    width: 35%;
     border: none;
 }
 
@@ -927,7 +927,7 @@ input[type=radio] {
     }
     #barss {
         display: block;
-        font-size: 24px;
+        font-size: 26px;
     }
     nav {
         display: flex;
@@ -1386,13 +1386,12 @@ body {
     }
 
     .input-email {
-        width: 120%;
-        background: #605e5e;
-        cursor: pointer;
-        border-radius: 5px 15px 15px 5px;
-
+        padding: 4px;
     }
-
+    .button {
+        width: 35%;
+    }
+    
     .card {
         width: 50% !important;
 
@@ -1413,6 +1412,9 @@ body {
     }
     .center-spa {
         max-width: 100%;
+    }
+    .clzxs{
+        padding: 8px;
     }
 
     
