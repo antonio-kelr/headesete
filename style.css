@@ -963,7 +963,6 @@ input[type=radio] {
         padding: 10px 2%;
         border: 2px;
         width: 60%;
-        border: 2px solid red !important;
     }
     
 
