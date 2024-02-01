@@ -15,6 +15,7 @@ nav {
     padding: 10px;
     margin-top: 15px;
 }
+
 .ul-lis {
     display: flex;
     margin: 0;
@@ -48,7 +49,8 @@ nav {
     font-size: 30px;
     margin-bottom: 20px;
 }
-.h1{
+
+.h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -232,21 +234,20 @@ nav li {
     width: 100%;
     height: auto;
 }
-.padCenter{
+
+.padCenter {
     max-width: 1800px;
-    margin: 0 auto;    
+    margin: 0 auto;
 }
-.itesCenter{
+
+.itesCenter {
     display: flex;
     width: 100%;
     justify-content: space-between;
     max-width: 1750px;
     margin: 0 auto;
     padding: 5px;
-
 }
-
-
 
 #icons1 {
     padding: 8px;
@@ -264,8 +265,6 @@ nav li {
 .div-baixo {
     width: 35%;
     min-width: 40%;
-
-
 }
 
 .item1 {
@@ -396,9 +395,10 @@ nav li {
     background: #5E5E60;
     cursor: pointer;
     border-radius: 0 20px 20px 0;
-    border: none; 
+    border: none;
     padding: 4px;
 }
+
 .button {
     position: absolute;
     right: 0;
@@ -408,6 +408,7 @@ nav li {
     width: 35%;
     border: none;
 }
+
 .input-email::placeholder {
     color: white;
     font-size: 10px;
@@ -418,10 +419,12 @@ nav li {
     left: 11%;
     transform: translate(-50%, -50%);
 }
+
 .input-email:focus {
     outline: none;
     border: none;
 }
+
 /*input-email terminal aqui*/
 
 .div-input1 {
@@ -439,9 +442,10 @@ nav li {
     background: #5E5E60;
     cursor: pointer;
     border-radius: 0 20px 20px 0;
-    border: none; 
+    border: none;
 
 }
+
 .clzxs {
     position: absolute;
     right: 0;
@@ -582,7 +586,8 @@ p {
     flex-direction: column;
     align-items: center;
 }
-.theLeg{
+
+.theLeg {
     max-width: 40%;
 }
 
@@ -602,8 +607,13 @@ p {
     width: 50%;
     display: flex;
     justify-content: center;
+
 }
 
+.divMens {
+    /* max-width: 50%; */
+    max-width: 40%;
+}
 
 .span1 {
     font-style: italic;
@@ -625,6 +635,7 @@ p {
     font-size: 10px;
     font-family: sans-serif;
 }
+
 .imagem {
     width: 100%;
     height: auto;
@@ -708,7 +719,8 @@ p {
     padding: 20px 4%;
     flex-direction: column;
 }
-.h1-final{
+
+.h1-final {
     padding: 5px;
     font-weight: bolder;
     margin-bottom: 50px;
@@ -793,7 +805,6 @@ p {
 .arrow svg {
     color: #5A5A5A;
 }
-
 
 
 input[type=radio] {
@@ -882,10 +893,30 @@ input[type=radio] {
     box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.81);
 
 }
+
 .users {
     font-weight: bold;
     margin-bottom: 20px;
 }
+
+@media (max-width: 1330px) {
+    .peNutilma {
+        width: 80% !important;
+    }
+    
+
+
+}
+
+
+@media (max-width: 1255px) {
+    .divMens {
+        max-width: 70%;
+
+    }
+
+}
+
 
 
 
@@ -894,10 +925,11 @@ input[type=radio] {
         width: 40% !important;
 
     }
+
     .center-spa {
         max-width: 70%;
     }
-    
+
 
     .input-butto1 {
         width: 100%;
@@ -908,11 +940,12 @@ input[type=radio] {
     #texts-center {
         gap: 50px;
     }
+
     .fit {
         max-width: 50%;
-    
+
     }
-    
+
 
 
 }
@@ -922,13 +955,27 @@ input[type=radio] {
         margin: 20px;
         display: none;
     }
+    .div-utilma {
+        position: absolute;
+        color: white;
+        margin-right: 40% !important;
+        text-align: left;
+        padding: 10px 2%;
+        border: 2px;
+        width: 60%;
+        border: 2px solid red !important;
+    }
+    
+
     #icons2 {
         display: none;
     }
+
     #barss {
         display: block;
         font-size: 26px;
     }
+
     nav {
         display: flex;
         justify-content: center;
@@ -939,6 +986,7 @@ input[type=radio] {
         width: 100%;
 
     }
+
     nav:hover {
         background: #38373c86;
     }
@@ -952,7 +1000,8 @@ input[type=radio] {
         height: 400px;
 
     }
-    .centerSt{
+
+    .centerSt {
         width: 60%;
     }
 
@@ -965,25 +1014,30 @@ input[type=radio] {
         grid-template-columns: repeat(2, 1fr);
         gap: 50px;
     }
+    .peNutilma {
+        width: 100% !important;
+    }
 
     #spanstext {
         width: 100%;
 
     }
-    .div-img1  {
+
+    .div-img1 {
         margin-bottom: 50px;
-        
+
     }
+
     .div-baixo {
         width: 100%;
         min-width: 40%;
-    
+
     }
-    
+
     .centers {
         width: 50%;
     }
-    
+
 
     .arrow {
         width: 70%;
@@ -1048,12 +1102,23 @@ input[type=radio] {
     overflow: hidden;
     margin-top: 5%;
 }
+
 .div-utilma {
     position: absolute;
     color: white;
     margin-right: 70%;
     text-align: left;
     padding: 10px 2%;
+    border: 2px;
+}
+
+.peNutilma {
+    width: 45%;
+}
+
+.utilma {
+    width: 100%;
+
 }
 
 
@@ -1130,9 +1195,10 @@ body {
         display: flex;
         text-align: center;
     }
+
     .fit {
         max-width: 90%;
-    
+
     }
 
 
@@ -1147,12 +1213,13 @@ body {
         width: 50%;
 
     }
+
     .center1 {
         width: 100%;
-    
-    
+
+
     }
-    
+
 
 
     .div-img4 {
@@ -1202,26 +1269,27 @@ body {
         width: 100%;
         height: auto;
     }
-    
+
     .spans-center {
         padding: 0px 2%;
     }
-    
+
     .div-baixo {
         width: 100%;
         min-width: 40%;
-    
+
     }
-    
-    
+
+
     .centers {
         width: 100%;
     }
+
     .item1 {
         font-size: 25px;
         font-weight: bolder;
     }
-    
+
     .item2 {
         font-size: 15px;
         color: rgb(173, 169, 169);
@@ -1388,36 +1456,44 @@ body {
     .input-email {
         padding: 4px;
     }
+
     .button {
         width: 35%;
     }
-    
+
     .card {
         width: 50% !important;
 
     }
-    .div-img1  {
+
+    .div-img1 {
         margin-bottom: 100px;
-        
+
     }
+
     .spans-center {
         padding: 0px 5%;
-    } 
-    .centerSt{
-        width: 90%;
-        
     }
-    .theLeg{
+
+    .centerSt {
+        width: 90%;
+
+    }
+
+    .theLeg {
         max-width: 100%;
     }
+
     .center-spa {
         max-width: 100%;
     }
-    .clzxs{
+
+    .clzxs {
         padding: 8px;
     }
 
-    
-    
+    .divMens {
+        max-width: 100%;
+    }
 
 }
