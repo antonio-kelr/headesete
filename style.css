@@ -592,27 +592,28 @@ p {
 }
 
 .div-lado-img {
-    text-align: left;
-    padding: 5px;
-    height: auto;
-    width: 45%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 400px;
+    height: 100%;
+    
 }
 
 .div {
-    height: auto;
     padding: 10px;
     width: 50%;
     display: flex;
     justify-content: center;
+    border: 2px solid rgba(52, 214, 12, 0);
 
 }
 
 .divMens {
-    /* max-width: 50%; */
-    max-width: 40%;
+    border: 2px solid rgba(0, 0, 0, 0);
+   text-align: left;
+   flex-direction: column;
+   display: flex;
+   height: auto;
+   justify-content: center;
 }
 
 .span1 {
@@ -1044,20 +1045,13 @@ input[type=radio] {
 
 
     .div-lado-img {
-        text-align: left;
-        margin-top: -50px;
-        width: 100%;
-        font-size: 5px;
-
+        display: grid;
+        grid-template-columns: 200px;
+        
     }
-
-    .button1 {
+        .button1 {
         width: 150px;
 
-    }
-
-    .div {
-        margin-top: 50px;
     }
 
     .parte-fotos1 {
@@ -1066,11 +1060,6 @@ input[type=radio] {
 
     }
 
-    .div-lado-img1 {
-        width: 100%;
-        height: 100%;
-        margin-left: 15%;
-    }
 
     .div1 {
         width: 100%;
